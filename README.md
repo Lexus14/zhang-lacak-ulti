@@ -63,7 +63,7 @@ Kontribusi selalu diterima! Silakan fork repository ini dan buat pull request de
 
 ## Author
 
-**Letda Kes dr. Sobri**
+**ZhangXenn**
 
 - Github: [@sobri3195](https://github.com/sobri3195)
 
