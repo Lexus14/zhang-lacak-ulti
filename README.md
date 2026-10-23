@@ -22,8 +22,9 @@ Pegasus Lacak Ultimate adalah toolkit OSINT (Open Source Intelligence) yang dira
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/sobri3195/pegasus-lacak-ultimate.git
-   cd pegasus-lacak-ultimate
+   git clone https://github.com/Lexus14/zhang-lacak-ulti.git
+cd zhang-lacak-ulti
+
    ```
 
 2. Install dependencies:
@@ -41,7 +42,7 @@ Pegasus Lacak Ultimate adalah toolkit OSINT (Open Source Intelligence) yang dira
 - Python 3.8 atau lebih baru
 - Sistem operasi Linux/Unix
 - Koneksi internet
-- Minimal RAM 4GB
+- Bisa Dijalankan Ditermux
 
 ## Penggunaan
 
@@ -65,7 +66,7 @@ Kontribusi selalu diterima! Silakan fork repository ini dan buat pull request de
 
 **ZhangXenn**
 
-- Github: [@sobri3195](https://github.com/sobri3195)
+- Github: [@Muhammad Jeksen](https://github.com/Lexus14)
 
 ## Disclaimer
 
@@ -75,7 +76,7 @@ Tool ini dibuat untuk tujuan edukasi dan penelitian. Penggunaan untuk aktivitas 
 
 MIT License
 
-Copyright (c) 2023 Letda Kes dr. Sobri
+Copyright (c) 2026 Muhammad Jeksen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
