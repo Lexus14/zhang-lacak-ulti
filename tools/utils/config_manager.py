@@ -26,7 +26,7 @@ class ConfigManager:
         """Buat konfigurasi default"""
         return {
             "version": "1.0.0",
-            "author": "Letda Kes dr. Sobri",
+            "author": "ZhangXenn",
             "last_updated": datetime.now().isoformat(),
             "api_keys": {},
             "settings": {

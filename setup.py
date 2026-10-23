@@ -35,7 +35,7 @@ def setup_config():
     """Setup file konfigurasi"""
     config = {
         "version": "1.0.0",
-        "author": "Letda Kes dr. Sobri",
+        "author": "ZhangXenn",
         "max_login_attempts": 3,
         "log_level": "INFO",
         "api_keys": {}

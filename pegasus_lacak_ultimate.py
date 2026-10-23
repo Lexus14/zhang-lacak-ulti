@@ -75,7 +75,7 @@ class PegasusLacak:
         """Buat konfigurasi default"""
         default_config = {
             'version': '1.0.0',
-            'author': 'Letda Kes dr. Sobri',
+            'author': 'ZhangXenn',
             'max_login_attempts': 3,
             'log_level': 'INFO'
         }
@@ -128,7 +128,7 @@ class PegasusLacak:
         banner = pyfiglet.figlet_format("PEGASUS LACAK", font="slant")
         self.console.print(f"[bold red]{banner}[/bold red]")
         self.console.print(Panel.fit(
-            "[bold yellow]Developed by: Letda Kes dr. Sobri[/bold yellow]\n"
+            "[bold yellow]Developed by: ZhangXenn[/bold yellow]\n"
             "[bold green]Version: 1.0.0[/bold green]"
         ))
 
