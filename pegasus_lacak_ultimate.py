@@ -25,6 +25,7 @@ from tools.web.web_recon import WebRecon
 from tools.utils.logger import PegasusLogger
 from tools.utils.encryption import PegasusEncryption
 from tools.utils.report_generator import ReportGenerator
+from tools.utils.common import display_result_table
 
 # Inisialisasi Rich Console
 console = Console()
@@ -339,7 +340,7 @@ class PegasusLacak:
 
     def display_results(self, title, data):
         """Tampilkan hasil dalam format tabel"""
-        self.report_gen.display_result_table(data, title)
+        display_result_table(data, title)
         
     def save_results(self, scan_type, target, results):
         """Simpan hasil scan"""
@@ -360,7 +361,7 @@ class PegasusLacak:
 
 def check_system_requirements():
     """Cek persyaratan sistem"""
-    if platform.system() not in ['Linux', 'Darwin']:
+    if platform.system() not in ['Linux', 'Darwin', 'Android']:
         console.print("[bold red]Error: Program ini hanya mendukung sistem Linux/Unix![/bold red]")
         sys.exit(1)
 
